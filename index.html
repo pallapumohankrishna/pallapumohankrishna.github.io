@@ -128,18 +128,31 @@
           <div class="profile float-right">
 
               <figure>
-
+<!--
   <picture>
     
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/p1-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/p1-800.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/p1-1400.webp"></source>
-    
+    -->
 
     <!-- Fallback to the original file -->
+                <!--
     <img src="/assets/img/pmk_profile.jpg" class="img-fluid z-depth-1 rounded-circle" width="auto" height="auto" alt="pmk_profile.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
 
   </picture>
+                -->
+  <picture>
+  <img 
+    src="/assets/img/pmk_profile.jpg" 
+    class="img-fluid z-depth-1 rounded-circle" 
+    width="200" 
+    height="200" 
+    alt="Profile Picture"
+    style="object-fit: cover;"
+  >
+</picture>
+
 
 </figure>
 
